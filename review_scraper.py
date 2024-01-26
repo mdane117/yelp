@@ -74,11 +74,11 @@ def export_to_csv(data, filename, output_folder):
 
 if __name__ == "__main__":
     # Read restaurant_page.csv
-    restaurant_df = pd.read_csv('C:\\Users\\Matthew Dane\\Desktop\\Coding\\python\\Yelp\\output\\restaurant_page.csv', encoding='ISO-8859-1')
+    restaurant_df = pd.read_csv('', encoding='ISO-8859-1') # Add filepath to the output of the yelp_scraper.py
 
     base_url = "https://www.yelp.com/biz/"
 
-    output_folder = "C:\\Users\\Matthew Dane\\Desktop\\Coding\\python\\Yelp\\output"
+    output_folder = "" # Add filepath to the output folder
     output_filename = "reviews.csv"
 
     all_data = []
