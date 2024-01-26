@@ -103,8 +103,8 @@ if __name__ == "__main__":
     # Exceptions the scraper should ignore in the HTML
     scrape_exceptions = "months ago"
 
-    input_filename = "C:\\Users\\Matthew Dane\\Desktop\\Coding\\python\\Yelp\\input_list.csv"
-    output_folder = "C:\\Users\\Matthew Dane\\Desktop\\Coding\\python\\Yelp\\output"
+    input_filename = "" # Add path to input list
+    output_folder = "" # Add path to output location
     output_filename = "restaurant_page.csv"
     with open(input_filename, 'r') as csvfile:
         reader = csv.reader(csvfile)
